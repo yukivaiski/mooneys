@@ -21,8 +21,7 @@ import cv2
 import numpy as np
 
 KAGGLE_DATASET_URL = (
-    "https://www.kaggle.com/api/v1/datasets/download/"
-    "zippyz/cats-and-dogs-breeds-classification-oxford-dataset"
+    "https://www.kaggle.com/api/v1/datasets/download/zippyz/cats-and-dogs-breeds-classification-oxford-dataset"
 )
 
 
