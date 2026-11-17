@@ -102,7 +102,7 @@ class MooneyApp(QMainWindow):
             QProgressBar::chunk { background-color: #a6e3a1; border-radius: 4px; }
             QSlider::groove:horizontal { height: 6px; background: #313244; border-radius: 3px; }
             QSlider::handle:horizontal { background: #89b4fa; width: 16px; margin: -5px 0; border-radius: 8px; }
-            QMessageBox { background-color: #1e1e2e; }
+            QMessageBox { background-color: #cdd6f4; }
             QMessageBox QLabel { color: #cdd6f4; font-size: 14px; }
             QMessageBox QPushButton { background-color: #89b4fa; color: #11111b; min-width: 70px; }
         """)
@@ -187,7 +187,7 @@ class MooneyApp(QMainWindow):
         output_group = QGroupBox("3. Output Destination")
         output_layout = QHBoxLayout()
 
-        self.output_path_input = QLineEdit("mooneys")
+        self.output_path_input = QLineEdit("mooney")
         self.btn_browse_output = QPushButton("Browse")
         self.btn_browse_output.clicked.connect(self.browse_output)
 

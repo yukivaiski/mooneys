@@ -1,3 +1,6 @@
 /.idea
-/mooneys/
-/data/
+/og_images/
+/mooney_for_train/
+/best_og_yolo.pt
+/best_mooney_yolo.pt
+/best_og_yolo.pt

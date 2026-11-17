@@ -311,7 +311,7 @@ def main():
         description="Benchmark multiple pretrained timm vision models on Mooney Cat vs. Dog faces."
     )
     parser.add_argument(
-        "--data-dir",
+        "--original-dir",
         type=Path,
         required=True,
         help="Path to dataset directory containing train/, val/, and test/ folders.",
