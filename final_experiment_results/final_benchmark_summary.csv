@@ -1,0 +1,5 @@
+model_run,architecture,eval_domain,num_images,accuracy_%,balanced_acc_%,cat_recall_%,dog_recall_%,macro_f1,roc_auc,confusion_matrix
+ResNet-50 (Mooney-trained),resnet50,mooney,100,79.0,78.28,82.76,73.81,0.7838,0.8592,"[[48, 10], [11, 31]]"
+ViT-Base (Mooney-trained),vit_base_patch16_224,mooney,100,78.0,79.06,72.41,85.71,0.7792,0.8654,"[[42, 16], [6, 36]]"
+ResNet-50 (RGB-trained),resnet50,original_rgb,100,99.0,99.14,98.28,100.0,0.9898,1.0,"[[57, 1], [0, 42]]"
+ViT-Base (RGB-trained),vit_base_patch16_224,original_rgb,100,98.0,97.62,100.0,95.24,0.9793,0.9975,"[[58, 0], [2, 40]]"
